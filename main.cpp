@@ -26,7 +26,7 @@ int main(int argc, char **argv) {
         program_name = program_name.substr(last_slash + 1);
         cout << "\t ./" << program_name << " [ARGUMENTS]" << endl;
         cout << "Arguments:" << endl;
-        cout << "\t --mode <mode> [REQUIRED] {'denoise', 'countour', 'histogram'}" << endl;
+        cout << "\t --mode <mode> [REQUIRED] {'denoise', 'countour', 'histogram', 'fourier'}" << endl;
         cout << "\t --input <input file> [REQUIRED]" << endl;
         cout << "\t --output <output file> [OPTIONAL] (default is same as input)" << endl;
         cout << "\nTo edit the parameters used in each mode, edit the 'parameters.hpp' file in the root of the project."
